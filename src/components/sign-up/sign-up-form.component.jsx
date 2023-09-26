@@ -7,7 +7,6 @@ import {
 	createAuthUserWithEmailAndPassword, 
 	createUserDocumentFromAuth 
 } from '../../utils/firebase/firebase.utils';
-import { UserContext } from '../../contexts/user.context';
 
 
 import { SignUpContainer } from './sign-up-form.styles';

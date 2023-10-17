@@ -8,7 +8,7 @@ export const CATEGORIES_INITIAL_STATE = {
 
 export const categoriesReducer = (
 	state = CATEGORIES_INITIAL_STATE, 
-	action= {}
+	action = {}
 ) => {
 	const {type, payload} = action;
 

@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Brooklyn",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "NY",
+				"name": "New York"
+			},
+			"timezone": "America/New_York",
+			"latitude": 40.598,
+			"longitude": -73.9467
+		},
+		"timestamp": 1697057204345
+	}
+}

@@ -11,7 +11,12 @@ import {selectCurrentUser} from '../../store/user/user.selector';
 import {ReactComponent as CrwnLogo} from '../../assets/crown.svg';
 import { signOutStart } from '../../store/user/user.action'
 
-import {NavigationContainer, NavLinks, NavLink, LogoContainer } from './navigation.styles';
+import {
+  NavigationContainer, 
+  NavLinks, 
+  NavLink, 
+  LogoContainer 
+} from './navigation.styles';
 
 const Navigation = () => {
   const dispatch = useDispatch();
@@ -33,7 +38,7 @@ const Navigation = () => {
         	</NavLink>
           {
             currentUser ? (
-              <NavLink as='span' onClick={signOutUser}>
+              <NavLink to ='' as='span' onClick={signOutUser}>
                 SIGN OUT
               </NavLink>
             ): (

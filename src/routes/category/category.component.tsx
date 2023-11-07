@@ -10,9 +10,12 @@ import {selectCategoriesMap, selectCategoriesIsLoading} from '../../store/catego
 
 import { CategoryContainer, Title } from './category.styles';
 
+type CategoryTouteParams = {
+	category: string;
+}
 
 const Category = () => {
-	const {category} = useParams();
+	const {category} = useParams<keyof CategoryTouteParams>() as CategoryTouteParams;
 	const categoriesMap = useSelector(selectCategoriesMap);
 	const isLoading = useSelector(selectCategoriesIsLoading);
 
